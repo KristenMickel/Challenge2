@@ -54,9 +54,12 @@ p {
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("../images/digital-marketing-meeting.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.hero img {
+  float: center;
 }
 
 .float-left {
@@ -67,6 +70,12 @@ p {
 .float-right {
   float: right;
   margin-left: 25px;
+}
+
+#relative-box {
+  position: relative;
+  left: 1100px;
+  top: 250px;
 }
 
 .content {
