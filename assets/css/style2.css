@@ -7,13 +7,13 @@
 
 /*Element Selectors*/
 body {
-  background-color: #d9dcd6;
+  background-color: lightcyan;
 }
 
 .header {
   padding: 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #2a607c;
+  background-color: darkcyan;
   color: #ffffff;
 }
 
@@ -46,10 +46,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-}
-
 .hero {
   height: 800px;
   width: 100%;
@@ -79,9 +75,10 @@ p {
 }
 
 .content {
-  width: 75%;
-  display: inline-block;
+  width: 100%;
+  display: inline;
   margin-left: 20px;
+  font-size: xx-large;
 }
 
 .categories {
@@ -89,7 +86,16 @@ p {
   padding: 50px;
   height: 300px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
+  background-color: darkcyan;
+  color: #ffffff;
+}
+
+.categories h2 ul li{
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: darkcyan;
   color: #ffffff;
 }
 
@@ -99,5 +105,53 @@ p {
 
 .categories h2 {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 50px;
 }
+
+/*Tablets*/
+@media screen and (max-width: 992px) {
+  .header {
+    background:darkorchid;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background:orchid;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .categories {
+    background:darkorchid;
+    width: 50%;
+  }
+}
+
+/*Smart Phones*/
+@media screen and (max-width: 768px) {
+  .header {
+    background:darkblue;
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background:blue;
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .categories {
+    background:darkblue;
+    width: 25%;
+  }
+}
+
+/*#work-history ul li {
+  list-style: square;
+}*/
